@@ -46,11 +46,16 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
     SobotMessageAction_UserBrowseTrack = 114,
     
     /**
+     *  用户评价完成
+     */
+    SobotMessageAction_UserFeedback = 116,
+    
+    /**
      *  配置信息改变(服务总结开关)
      */
     SobotMessageAction_ConfigChangedSummary = 135,
     /**
-     * 状态切换申请被操作后给客服推送消息
+     * 状态切换申请被操作后给客服推送消息,{"type":122,"flag":1,"auditStaff":"张晓","status":2},//flag标记  1-通过 2-驳回 3-待审核
      */
     SobotMessageAction_AUDIT_STATUS_SERVICE = 122,
     /**
@@ -97,7 +102,7 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
      */
     SobotMessageAction_USER_QUEUE = 7,
     /**
-     * 用户和客服建立会话
+     * 用户与客服建立会话
      */
     SobotMessageAction_USER_ADMIN_CONNECTED = 8,
     /**
@@ -132,7 +137,12 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
     /**
      * 管理员忙碌
      */
-    SobotMessageAction_ADMIN_BUSY = 25,
+    SobotMessageAction_ADMIN_BUSY = 15,
+    
+    /**
+     * 自动应答语
+     */
+    SobotMessageAction_Auto_Tips = 25,
     
     /**
      * 添加标星
@@ -275,6 +285,8 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
 @property (nonatomic,copy) NSMutableAttributedString    *attr;
 
 -(NSString *) getActionMsg:(SobotMessageAction ) action;
+
+-(NSString *)getLastMessage;
 
 @end
 

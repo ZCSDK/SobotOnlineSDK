@@ -163,7 +163,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage*)getGrayImage:(UIImage*)sourceImage;
 
 
-+(NSMutableAttributedString *) attributedStringByHTML:(NSString *)html;
+
++(NSMutableAttributedString *) attributedStringByHTML:(NSString *)html textColor:(UIColor *) textColor linkColor:(UIColor *) linkColor;
 
 
 +(CGFloat)getHeightContain:(NSString *)string font:(UIFont *)font Width:(CGFloat) width;
@@ -173,7 +174,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 + (NSString *)localizedStringForKey:(NSString *)key;
-+ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value;
++ (NSString *)localizedStringForKey:(NSString *)key value:(NSString *__nullable)value;
 
 // 显示日志
 +(void)showDebugLog:(BOOL ) show;

@@ -27,6 +27,9 @@ NSString *sAppIntToString(int value);
 NSString* sAppMd5(NSString* input);
 NSString *sAppMD5Hash(NSString * input);
 
+
+BOOL sAppIsUrl(NSString *urlString);
+
 NSString *sAppRandom32bitString(int len);
 
 NSString *sAppUrlEncodedString(NSString *url);

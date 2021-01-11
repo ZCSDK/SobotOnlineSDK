@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,assign) int summaryOperationInputFlag;//咨询总结业务单元必填开关
 
-@property(nonatomic,assign) int summaryTypeFlag; //咨询总结问题类型开关
+@property(nonatomic,assign) int summaryTypeFlag; //咨询总结业务类型开关
 
 @property(nonatomic,assign) int summaryStatusFlag; //咨询总结处理状态开关
 

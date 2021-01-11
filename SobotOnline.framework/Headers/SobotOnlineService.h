@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 仅登录客服，不执行页面逻辑
 /// @param account 客服账户(邮箱)
-/// @param loginStatus 登录状态 0:忙碌，1:在线，-1使用默认值
+/// @param loginStatus 登录状态 2:忙碌，1:在线，0默认 
 /// @param resultBlock 登录结果
 +(void)doLoginWithAccount:(NSString *) account status:(int) loginStatus result:(void (^)(id object))resultBlock;
 
