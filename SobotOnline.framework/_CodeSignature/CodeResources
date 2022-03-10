@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/SobotMessageEntity.h</key>
 		<data>
-		H2gMMzD+tzqdMW97C0ME/Sby4F4=
+		l5vYHgofTVv37sw5zY6vGdTOxic=
 		</data>
 		<key>Headers/SobotOnline.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/SobotOnlineService.h</key>
 		<data>
-		dSgXt8x/iZxWUJL6cAvYUtSvuqc=
+		JrXMPy0NUFkyTyxuzxJ3wJ076+g=
 		</data>
 		<key>Headers/SobotProgressHUD.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z6zG0K7dSi/V1LqXgEGXPEUdhUQ=
+		UvDySi+Kb6bNxoAA1OpiYanZvAw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -232,11 +232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H2gMMzD+tzqdMW97C0ME/Sby4F4=
+			l5vYHgofTVv37sw5zY6vGdTOxic=
 			</data>
 			<key>hash2</key>
 			<data>
-			USGoWfSDtpmm/Zp+jqadAbZ3aiZ9sa2Jz97LjBqxzt4=
+			z4hZujF2C7rXTixPxhR9RP3TzSvTBxIqyEspXVOmiP8=
 			</data>
 		</dict>
 		<key>Headers/SobotOnline.h</key>
@@ -287,11 +287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dSgXt8x/iZxWUJL6cAvYUtSvuqc=
+			JrXMPy0NUFkyTyxuzxJ3wJ076+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			snH9LE5hZmpNS0RHo0AXcEmqagdzL+08v8OQHMgaRiE=
+			QMUwuMWa7Rp/3nP+6at6KNGIE0elBPj6GCFmVeLHsw8=
 			</data>
 		</dict>
 		<key>Headers/SobotProgressHUD.h</key>

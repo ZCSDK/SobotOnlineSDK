@@ -13,6 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
+/// <#Description#>
 @interface SobotOnlineService : NSObject
 
 
@@ -42,8 +43,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 启动客服认证页面
 /// @param account 客服账户(邮箱)
 /// @param loginStatus 登录状态 2:忙碌，1:在线，0默认
-/// @param byController  启动的controller
-+(void)startAuthWithAcount:(NSString *) account status:(int) loginStatus vc:(UIViewController *) byController result:(void (^)(id object))resultBlock;
+/// @param byController 启动的controller,如果为空将返回要启动的UIViewController
+/// 注意：返回值可能为空，如果为空请查看result中日志信息
++(UIViewController *)startAuthWithAcount:(NSString *) account status:(int) loginStatus vc:(UIViewController *) byController result:(void (^)(id object))resultBlock;
 
 
 

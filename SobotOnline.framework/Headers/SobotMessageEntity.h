@@ -86,6 +86,10 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
      */
     SobotMessageAction_ADMIN_OFFLINE = 2,
     /**
+     * 用户初始化
+     */
+    SobotMessageAction_ADMIN_USER_INIT = 3,  // 新增 1.0.2
+    /**
      * 用户和机器人客服建立会话
      */
     SobotMessageAction_USER_ROBOT_ONLINE = 4,
@@ -138,12 +142,6 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
      * 管理员忙碌
      */
     SobotMessageAction_ADMIN_BUSY = 15,
-    
-    /**
-     * 自动应答语
-     */
-    SobotMessageAction_Auto_Tips = 25,
-    
     /**
      * 添加标星
      */
@@ -173,6 +171,101 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
      */
     SobotMessageAction_ADMIN_TOBE_ONLINE = 22,
     /**
+     * 用户评价
+     */
+    SobotMessageAction_USER_COMMENT = 23, // 客户已对「znw」的服务进行了评价
+    /**
+     * 自动应答语  向用户发送系统消息
+     */
+    SobotMessageAction_Auto_Tips = 25,
+    /**
+     *  用户会话被锁定
+     */
+    SobotMessageAction_USER_BE_LOCK = 26, // 1.0.2新增
+    /**
+     *  用户会话被解锁
+     */
+    SobotMessageAction_USER_UN_LOCK = 27,// 1.0.2新增
+    /**
+     *  用户会话转人工标识
+     */
+    SobotMessageAction_TO_ADMIN  = 28,// 1.0.2新增
+    /**
+     *  用户收到系统消息--仅用户可见
+     */
+    SobotMessageAction_USER_GET_SYS_MSG = 29,// 1.0.2新增
+    
+    /**
+     *   转接申请
+     **/
+    SobotMessageAction_TRANSFERAUDIA = 30,// 1.0.2新增
+    
+    /**
+     *   转接审核
+     **/
+    SobotMessageAction_TRANSRER_REVIEW = 31,// 1.0.2新增
+    /**
+     *   客服发起远程协助
+     **/
+    SobotMessageAction_REMOTE_ADMIN_LAUNCH = 32,// 1.0.2新增
+    /**
+     *   客服开始远程协助
+     **/
+    SobotMessageAction_REMOTE_ADMIN_START = 33,// 1.0.2新增
+    /**
+     *   客服取消远程协助
+     **/
+    SobotMessageAction_REMOTE_ADMIN_CANCEL = 34,// 1.0.2新增
+    /**
+     *   客服结束远程协助
+     **/
+    SobotMessageAction_REMOTE_ADMIN_END = 35,// 1.0.2新增
+    /**
+     *   客户接受远程协助
+     **/
+    SobotMessageAction_REMOTE_USER_ACCEPT = 36,// 1.0.2新增
+    /**
+     *   客户拒绝远程协助
+     **/
+    SobotMessageAction_REMOTE_USER_REFUSE = 37,// 1.0.2新增
+    /**
+     *   客户结束远程系统
+     **/
+    SobotMessageAction_REMOTE_USER_END = 38,// 1.0.2新增
+    /**
+     *   超管结束远程协助
+     **/
+    SobotMessageAction_REMOTE_SUPER_END = 39,// 1.0.2新增
+    /**
+     *   头条用户离线
+     **/
+    SobotMessageAction_TT_TO_ADMIN_SYS_MSG = 40,// 1.0.2新增
+    /**
+     *   头条用户进线
+     **/
+    SobotMessageAction_TT_SYS_IN_PAGE_MSG = 41,// 1.0.2新增
+    /**
+     *   用户触发了转人工操作
+     **/
+    SobotMessageAction_MSG_TYPE_USER_TRANSFER_ACTION  = 42,// 1.0.2新增
+    /**
+     *   用户咨询页授权
+     **/
+    SobotMessageAction_CONSULT_AUTH_SAFETY  = 43,// 1.0.2新增
+    /**
+     *   用户同意敏感词授权
+     **/
+    SobotMessageAction_SENSITIVE_AUTH_AGREE  = 44,// 1.0.2新增
+    /**
+     *   用户拒绝敏感词授权
+     **/
+    SobotMessageAction_SENSITIVE_AUTH_REFUSE  = 45,// 1.0.2新增
+    /**
+     *   主动邀请评价之后提示
+     **/
+    SobotMessageAction_EVALUATE1 = 98,
+    
+    /**
      * 未送达
      */
     SobotMessageAction_UN_DEIVED = 117,
@@ -185,7 +278,7 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
     /**
      *  敏感词提示
      **/
-    SobotMessageAction_SENSITIVE = 30,
+    SobotMessageAction_SENSITIVE = 99,
 };
 
 
@@ -280,7 +373,7 @@ typedef NS_ENUM(NSInteger,SobotMessageAction) {
 
 @property (nonatomic,assign) BOOL userNoSeeFlag;// 历史记录中是否是敏感词
 
-
+@property (nonatomic,copy) NSString *msg;
 
 @property (nonatomic,copy) NSMutableAttributedString    *attr;
 
