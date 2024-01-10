@@ -31,19 +31,9 @@ s.requires_arc = true
 #  Binary/App normal arm64
 #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
-s.pod_target_xcconfig = {
-	'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-}
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-#s.source_files = 'SobotFramework/**/*'
-# s.resources = 'Assets'
+s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
-# s.ios.exclude_files = 'Classes/osx'
-# s.osx.exclude_files = 'Classes/ios'
-# s.public_header_files = 'Classes/**/*.h'
-#s.frameworks =  "AudioToolbox","SystemConfiguration","AVFoundation","MobileCoreServices"
-#s.library   = 'z.1.2.5'
 
 # s.resource  = "icon.png"
 s.resources = 'SobotOnline.bundle'
