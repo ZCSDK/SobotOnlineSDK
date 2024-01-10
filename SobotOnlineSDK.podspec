@@ -23,13 +23,13 @@ s.author           = { 'zhangxy' => 'app_dev@sobot.com' }
 s.source           = { :git => "https://github.com/ZCSDK/SobotOnlineSDK.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/NAME'
 
-s.platform     = :ios, '8.0'
+s.platform     = :ios, '9.0'
 #s.ios.deployment_target = ‘6.1’
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
 #  Binary/App normal arm64
-#s.pod_target_xcconfig = { 'VALID_ARCHS' => 'i386 x86_64 armv7 arm64' }
+#s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 s.pod_target_xcconfig = {
 	'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
