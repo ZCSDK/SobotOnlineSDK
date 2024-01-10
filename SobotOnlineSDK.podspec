@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 s.name             = "SobotOnlineSDK"
 
-s.version          = "1.0.2"
+s.version          = "1.0.4"
 
 s.summary          = "智齿客服在线SDK，支持APP直接对接 A marquee view used on iOS."
 s.description      = <<-DESC
@@ -47,7 +47,7 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 # s.resource  = "icon.png"
 s.resources = 'SobotOnline.bundle'
-s.ios.vendored_frameworks = 'SobotOnline.framework'
+s.ios.vendored_frameworks = 'SobotOnline.framework','SobotCommon.framework','SobotOnlineBase.framework'
 
 # s.ios.vendored_libraries = 'libSobotLib.a'
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

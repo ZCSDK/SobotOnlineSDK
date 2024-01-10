@@ -6,18 +6,14 @@
 //  Copyright © 2020 sobot. All rights reserved.
 //
 
-#import "SobotBaseEntity.h"
+#import <SobotCommon/SobotCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SobotAuthConfigEntity : SobotBaseEntity
 
-// chat接口使用
+// chat接口使用，根据appid和appkey，获取到的token，仅用于判断当前SDK已经初始化了
 @property(nonatomic,strong) NSString *installToken;
-@property(nonatomic,strong) NSString *token;
-
-// 工单接口使用
-@property (nonatomic,strong)NSString *tempId;
 
 // 登录账号类型（0 工单账号  ，1 普通账号）
 @property (nonatomic,assign)int imFlag;
