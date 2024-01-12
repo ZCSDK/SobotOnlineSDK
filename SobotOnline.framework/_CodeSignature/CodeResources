@@ -12,13 +12,33 @@
 		<data>
 		QaMkiE+f3Nio5FDHqxB1FcSehIk=
 		</data>
+		<key>Headers/SobotChatController.h</key>
+		<data>
+		LnBLxtsXigJbC0dvwCnF+BigfrA=
+		</data>
+		<key>Headers/SobotChatHistoryController.h</key>
+		<data>
+		uB9InrBMKMR9p+NOZsd0HONYgOg=
+		</data>
+		<key>Headers/SobotChatHomeController.h</key>
+		<data>
+		7CPajWi/GjkD5Yh6BLHACDrNAvA=
+		</data>
+		<key>Headers/SobotChatOnlineController.h</key>
+		<data>
+		DpXAWOTf30zKAKF9tTF61aCjbSk=
+		</data>
+		<key>Headers/SobotChatTransferController.h</key>
+		<data>
+		sH+PelAH2FH30/h3yJU4tyFsxtc=
+		</data>
 		<key>Headers/SobotOnline.h</key>
 		<data>
 		FynZLjnBEh++aP65hd1SKQgd140=
 		</data>
 		<key>Headers/SobotOnlineApi.h</key>
 		<data>
-		Kuj+lp2Fqzb6MimXQjroTvaErdE=
+		+JwYooohDFWjwBvJNik8m7iy+KA=
 		</data>
 		<key>Headers/SobotOnlineBaseController.h</key>
 		<data>
@@ -30,7 +50,7 @@
 		</data>
 		<key>Headers/SobotOnlineCommon.h</key>
 		<data>
-		DiLAPSBAhrK/LvlT3wB68gOJ+g4=
+		BDeRpnLMr86iYb1r2TPRL1ccU7c=
 		</data>
 		<key>Headers/SobotOnlineConfig.h</key>
 		<data>
@@ -73,6 +93,61 @@
 			xDPOCLrphKJZHDOmM3geH9Q/3rovBvb1L1k5v2SyL8M=
 			</data>
 		</dict>
+		<key>Headers/SobotChatController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LnBLxtsXigJbC0dvwCnF+BigfrA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5Fx7jjlHvAtlszJsEsRCKnmPG32Om29mSlJDzrbn3us=
+			</data>
+		</dict>
+		<key>Headers/SobotChatHistoryController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uB9InrBMKMR9p+NOZsd0HONYgOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			yq9uJ0EVRyT+tfjbfjUNp3MFoTGIYGXkcHjiDE7JbM8=
+			</data>
+		</dict>
+		<key>Headers/SobotChatHomeController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7CPajWi/GjkD5Yh6BLHACDrNAvA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fs+M/tzqkRGg7uJwoLJ39da/IcysjV211IkMNg4J348=
+			</data>
+		</dict>
+		<key>Headers/SobotChatOnlineController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DpXAWOTf30zKAKF9tTF61aCjbSk=
+			</data>
+			<key>hash2</key>
+			<data>
+			q8y3mL26alAAM6Pr+SOijNhAolsgVPyNZBSX76we5sA=
+			</data>
+		</dict>
+		<key>Headers/SobotChatTransferController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sH+PelAH2FH30/h3yJU4tyFsxtc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mbxcdd1+YysxnJgSOyM/tL38Fy5e87zVEH/uU1B6MzU=
+			</data>
+		</dict>
 		<key>Headers/SobotOnline.h</key>
 		<dict>
 			<key>hash</key>
@@ -88,11 +163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Kuj+lp2Fqzb6MimXQjroTvaErdE=
+			+JwYooohDFWjwBvJNik8m7iy+KA=
 			</data>
 			<key>hash2</key>
 			<data>
-			YUIGU5XAV/jzeXZ3pAwfUE1pl2P8piTYz4j1lfH/4As=
+			QHuQJI0imEZL2J/WpWMulcITrG/Oc2KXUVHM0Nspnxc=
 			</data>
 		</dict>
 		<key>Headers/SobotOnlineBaseController.h</key>
@@ -121,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DiLAPSBAhrK/LvlT3wB68gOJ+g4=
+			BDeRpnLMr86iYb1r2TPRL1ccU7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			J0kVjfez4NwdIz8bibc8ZQ9ZnAtkObRNlBvIxdv3HI4=
+			CNEOYmoLSVf3TQ7CJwTGFSpW81oeTP5g/XPjNupbIoI=
 			</data>
 		</dict>
 		<key>Headers/SobotOnlineConfig.h</key>

@@ -62,6 +62,12 @@
 #define SobotNotification_ChangeCustomerInfo @"SobotChangeCustomerInfo"
 
 
+/**
+ *  取消标记用户
+ *
+ *  @return
+ */
+#define SobotNotification_AdminOutSuccess @"SobotAdminOutSuccess"
 
 
 /**

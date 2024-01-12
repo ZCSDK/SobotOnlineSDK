@@ -55,6 +55,9 @@ typedef void(^OnlineProgressBlock)(CGFloat progress);
 @interface SobotOnlineApi : NSObject
 
 
+/// 当前SDK版本
++(NSString *)getOnlineSDKVersion;
+
 /// 获取登录token
 /// @param appId  appid服务端生成
 /// @param appkey 生成sign使用
