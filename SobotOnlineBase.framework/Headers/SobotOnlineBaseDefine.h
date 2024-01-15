@@ -73,4 +73,4 @@
 
 
 #define onlineSDKGetColor(colorName) [SobotOnlineUITools getOnlineSDKColor:colorName alpha:1.0f]
-#define onlineSDKGetColorA(colorName,alpha) [SobotOnlineUITools getOnlineSDKColor:colorName alpha:alpha]
+#define onlineSDKGetColorA(colorName,a) [SobotOnlineUITools getOnlineSDKColor:colorName alpha:a]
