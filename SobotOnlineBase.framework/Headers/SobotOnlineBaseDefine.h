@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <SobotCommon/SobotCommon.h>
-#import <SobotCommon/SobotBaseEntity.h>
 #import <SobotOnlineBase/SobotOnlineUITools.h>
+#import <SobotOnlineBase/SobotOnlineCache.h>
 
 // UTF8 字符串
 #define ZCUTF8Data(str) [str dataUsingEncoding:NSUTF8StringEncoding]
@@ -74,3 +74,8 @@
 
 #define onlineSDKGetColor(colorName) [SobotOnlineUITools getOnlineSDKColor:colorName alpha:1.0f]
 #define onlineSDKGetColorA(colorName,a) [SobotOnlineUITools getOnlineSDKColor:colorName alpha:a]
+
+#define SobotOnlineGetImage(imageName) [SobotOnlineUITools getOnlineSDKImage:imageName]
+#define SobotOnlineLocalString(key) [[SobotOnlineCache shareSobotOnlineCache] localOnlineString:key]
+
+#define SobotOnlineIsRTL [SobotOnlineUITools sobotCheckRTL]

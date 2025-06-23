@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SobotOnlineBase/SobotOnlineBase.h>
-#import "SobotOnlineCommon.h"
-#import "SobotAuthConfigEntity.h"
-#import "SobotOnlineConfig.h"
+#import <SobotOnlineBase/SobotOnlineCommon.h>
+#import <SobotOnlineBase/SobotOnlineConfig.h>
+#import <SobotOnlineBase/SobotAuthConfigEntity.h>
+#import <SobotOnlineBase/SobotOnlineUser.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -53,6 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setConfig:(SobotAuthConfigEntity *) config;
 
 
+-(NSString *)localOnlineString:(NSString *) key;
 
 
 // 历史记录筛选条件

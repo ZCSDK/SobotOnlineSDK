@@ -6,7 +6,7 @@
 //  Copyright © 2020 sobot. All rights reserved.
 //
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
+#import <SobotCommon/SobotCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

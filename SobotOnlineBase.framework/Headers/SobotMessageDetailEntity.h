@@ -8,7 +8,8 @@
 
 
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
+#import <SobotCommon/SobotCommon.h>
+
 //typedef NS_ENUM(NSInteger,SobotMessageType) {
 //    // 0文本 1图片 2音频 3、视频、4文件,5对象
 ////    文件类型：

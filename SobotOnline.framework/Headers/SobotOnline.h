@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SobotOnlineBase/SobotOnlineBase.h>
 #import "SobotOnlineBaseController.h"
 #import "SobotAuthorController.h"
 
 
-
-#import "SobotOnlineConfig.h"
 #import "SobotOnlineService.h"
 
 

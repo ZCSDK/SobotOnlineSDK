@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "SobotOnlineCommon.h"
+#import <SobotOnlineBase/SobotOnlineBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -46,6 +46,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param byController 启动的controller,如果为空将返回要启动的UIViewController
 /// 注意：返回值可能为空，如果为空请查看result中日志信息
 +(UIViewController *)startAuthWithAcount:(NSString *) account status:(int) loginStatus vc:(UIViewController *) byController result:(void (^)(id object))resultBlock;
+
+/// 启动首页
+/// @param account 客服账户(邮箱)
+/// @param loginStatus 登录状态 2:忙碌，1:在线，0默认
+/// @param byController 启动的controller,如果为空将返回要启动的UIViewController
+/// 注意：返回值可能为空，如果为空请查看result中日志信息
++(void )startHomeWithAcount:(NSString *) account status:(int) loginStatus vc:(UIViewController *) byController result:(void (^)(id object))resultBlock;
 
 
 

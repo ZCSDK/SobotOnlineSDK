@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(UIColor *)getOnlineSDKColor:(NSString *)colorName alpha:(CGFloat ) a;
 
++(BOOL)sobotCheckRTL;
 @end
 
 NS_ASSUME_NONNULL_END

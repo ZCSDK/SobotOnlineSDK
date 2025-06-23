@@ -7,7 +7,7 @@
 //
 
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
+#import <SobotCommon/SobotCommon.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SobotOnlineUser : SobotBaseEntity
@@ -43,6 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *uname;
 
 @property (nonatomic,strong) NSString *lastMessage;
+@property (nonatomic,strong) NSString *lastStaffId;
+
 
 // 是否下线，本地判断使用
 @property (nonatomic,assign) BOOL     isOnline;

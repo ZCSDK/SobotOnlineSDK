@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <SobotOnlineBase/SobotOnlineBase.h>
 #import <SobotCommon/SobotCommon.h>
-#import "SobotOnlineCache.h"
 
 
 NS_ASSUME_NONNULL_BEGIN

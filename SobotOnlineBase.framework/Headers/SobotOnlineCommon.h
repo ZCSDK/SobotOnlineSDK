@@ -8,7 +8,6 @@
 
 #ifndef SobotOnlineCommon_h
 #define SobotOnlineCommon_h
-#import "SobotOnlineConfig.h"
 
 // 记住登录状态
 #define SobotCacheRemenberLoginStatus @"SobotRemenberLoginStatus"

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = "SobotOnlineSDK"
+s.name             = "SobotOnlineSDKJDWL"
 
-s.version          = "1.0.6"
+s.version          = "0.0.1"
 
 s.summary          = "智齿客服在线SDK，支持APP直接对接 A marquee view used on iOS."
 s.description      = <<-DESC
@@ -32,7 +32,7 @@ s.requires_arc = true
 #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
-s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
 
 
 # s.resource  = "icon.png"

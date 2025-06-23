@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
+#import <SobotCommon/SobotCommon.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SobotOnlineAdmin : SobotBaseEntity

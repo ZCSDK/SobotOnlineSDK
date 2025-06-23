@@ -7,7 +7,6 @@
 //
 
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
 #import "SobotMessageDetailEntity.h"
 
 NS_ASSUME_NONNULL_BEGIN

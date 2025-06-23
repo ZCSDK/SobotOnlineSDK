@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SobotCommon/SobotCommon.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SobotOnlineConfig : NSObject
+@interface SobotOnlineConfig : SobotCacheEntity
 
 // 离开聊天页面是否提醒新消息
 @property(nonatomic,assign) BOOL autoNotifaction;

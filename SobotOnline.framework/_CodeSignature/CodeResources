@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/SobotAuthConfigEntity.h</key>
-		<data>
-		mAOwwbXc55p0UsPCxvbxVe5etec=
-		</data>
 		<key>Headers/SobotAuthorController.h</key>
 		<data>
 		QaMkiE+f3Nio5FDHqxB1FcSehIk=
@@ -34,54 +30,27 @@
 		</data>
 		<key>Headers/SobotOnline.h</key>
 		<data>
-		FynZLjnBEh++aP65hd1SKQgd140=
-		</data>
-		<key>Headers/SobotOnlineApi.h</key>
-		<data>
-		+JwYooohDFWjwBvJNik8m7iy+KA=
+		Cl2WxgYOyCdUCrKt2/6NkX3xe7A=
 		</data>
 		<key>Headers/SobotOnlineBaseController.h</key>
 		<data>
 		OkF+zZXHrlR08uxa3Nz8vZQtOVM=
 		</data>
-		<key>Headers/SobotOnlineCache.h</key>
-		<data>
-		5e92zTaMwfJm57wRs9WS/qkBxNc=
-		</data>
-		<key>Headers/SobotOnlineCommon.h</key>
-		<data>
-		BDeRpnLMr86iYb1r2TPRL1ccU7c=
-		</data>
-		<key>Headers/SobotOnlineConfig.h</key>
-		<data>
-		rrTWZReLHe3G6mFaRs1ZKCBNGRs=
-		</data>
 		<key>Headers/SobotOnlineService.h</key>
 		<data>
-		JrXMPy0NUFkyTyxuzxJ3wJ076+g=
+		jITFPdBUvCz4cZdNMImS4108lec=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YFJ8JiBSq56iO2zzZK5ZIfjB3sQ=
+		Rb9lKeL5tompTAE1YQZzh0DqkX8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		5OhvEVIoKXvY1Yq98v8YK1vHMoQ=
+		YMPCtE9blZbh4vM7hPuRGNlhy00=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/SobotAuthConfigEntity.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mAOwwbXc55p0UsPCxvbxVe5etec=
-			</data>
-			<key>hash2</key>
-			<data>
-			NZDmiyflgVx4Le1rrHSgiJVyYkr5REcDrZDrSKEHdV4=
-			</data>
-		</dict>
 		<key>Headers/SobotAuthorController.h</key>
 		<dict>
 			<key>hash</key>
@@ -152,22 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FynZLjnBEh++aP65hd1SKQgd140=
+			Cl2WxgYOyCdUCrKt2/6NkX3xe7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			f8QMD88YCM6ygiVJzNEQBNKtmLpNUHlFk+y4w4krnbE=
-			</data>
-		</dict>
-		<key>Headers/SobotOnlineApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+JwYooohDFWjwBvJNik8m7iy+KA=
-			</data>
-			<key>hash2</key>
-			<data>
-			QHuQJI0imEZL2J/WpWMulcITrG/Oc2KXUVHM0Nspnxc=
+			DK6xoEX/MqC8e94azMH1wjSG3yKcUT755upTjFHXZ4Q=
 			</data>
 		</dict>
 		<key>Headers/SobotOnlineBaseController.h</key>
@@ -181,59 +139,26 @@
 			MJbz2X4tXSRSs05ZqCzri2tY6qPvHljJNIWLu+EYs1I=
 			</data>
 		</dict>
-		<key>Headers/SobotOnlineCache.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5e92zTaMwfJm57wRs9WS/qkBxNc=
-			</data>
-			<key>hash2</key>
-			<data>
-			PqM7KdjFR8NSnOqEo/FsjxEGIv1eLXZW9lnpCZ/UhBQ=
-			</data>
-		</dict>
-		<key>Headers/SobotOnlineCommon.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BDeRpnLMr86iYb1r2TPRL1ccU7c=
-			</data>
-			<key>hash2</key>
-			<data>
-			CNEOYmoLSVf3TQ7CJwTGFSpW81oeTP5g/XPjNupbIoI=
-			</data>
-		</dict>
-		<key>Headers/SobotOnlineConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rrTWZReLHe3G6mFaRs1ZKCBNGRs=
-			</data>
-			<key>hash2</key>
-			<data>
-			o7QMgwW+ZY+2Pq89Tj/Dad2NXFKdk+sRb/4Tjp62mf8=
-			</data>
-		</dict>
 		<key>Headers/SobotOnlineService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JrXMPy0NUFkyTyxuzxJ3wJ076+g=
+			jITFPdBUvCz4cZdNMImS4108lec=
 			</data>
 			<key>hash2</key>
 			<data>
-			QMUwuMWa7Rp/3nP+6at6KNGIE0elBPj6GCFmVeLHsw8=
+			Yr+ihHCEi9TZ+3QOy6hI3X+LRXENvtOeJ5g7f6JAcf0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5OhvEVIoKXvY1Yq98v8YK1vHMoQ=
+			YMPCtE9blZbh4vM7hPuRGNlhy00=
 			</data>
 			<key>hash2</key>
 			<data>
-			joODD6EjvMIk08/ZCe1WBcdYMmVW1vQAp1KJO6kIcjQ=
+			21PV8CbADoJ0IUrbiVSTC0XbAOC/fVLyogC/kpItdr0=
 			</data>
 		</dict>
 	</dict>

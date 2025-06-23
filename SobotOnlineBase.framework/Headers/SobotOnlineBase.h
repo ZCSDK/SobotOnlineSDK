@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
 #import <SobotOnlineBase/SobotCustomFieldEntity.h>
 #import <SobotOnlineBase/SobotMenuEntity.h>
 #import <SobotOnlineBase/SobotMessageDetailEntity.h>
@@ -17,6 +16,15 @@
 #import <SobotOnlineBase/SobotHttpManager.h>
 #import <SobotOnlineBase/SobotOnlineSocketConnect.h>
 
+#import <SobotOnlineBase/SobotOnlineConfig.h>
+#import <SobotOnlineBase/SobotUnitEntity.h>
+#import <SobotOnlineBase/SobotUserSessionInfoEntity.h>
+#import <SobotOnlineBase/SobotSummaryEntity.h>
+#import <SobotOnlineBase/SobotAuthConfigEntity.h>
+#import <SobotOnlineBase/SobotOnlineIMMessage.h>
+#import <SobotOnlineBase/SobotOnlineApi.h>
+#import <SobotOnlineBase/SobotOnlineCommon.h>
+#import <SobotOnlineBase/SobotOnlineBaseDefine.h>
 
 //! Project version number for SobotOnlineBase.
 FOUNDATION_EXPORT double SobotOnlineBaseVersionNumber;
